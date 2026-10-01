@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Emanuel Elias | Meu primeiro site</title>
+ <link rel="stylesheet" href="estilo.css">
+ <script src="code.js" defer></script>
+</head>
+<body>
+ <header>
+ <img src="foto.jpg" alt="Foto de SEU NOME">
+ <h1>Emanuel Elias</h1>
+ <p>Estudante do Curso Técnico em Informática</p>
+ <p>IFS – Campus Tobias Barreto</p>
+ </header>
+ <nav>
+ <a href="#sobre">Sobre</a>
+ <a href="#horarios">Horários</a>
+ <a href="#contato">Contato</a>
+ </nav>
+ <main>
+ <section id="sobre">
+ <h2>Sobre mim</h2>
+ <p>Eu gosto de ler, jogar e aprender coisas novas. Escolhi cursar DS porque, além de me interesssar pelo assunto, vejo futuro na área de trabalho.</p>
+ <h3>O que eu quero aprender</h3>
+ <ul>
+ <li>HTML e CSS</li>
+ <li>Git e GitHub</li>
+ <li>automatização de sistemas</li>
+ </ul>
+ <h3>Meus objetivos</h3>
+ <ol>
+ <li>Terminar o curso técnico</li>
+ <li>Desenvolver e hospedar um site para um microempreendimento de onde eu moro</li>
+ </ol>
+ <p>Conheça o <a href="https://www.ifs.edu.br" target="_blank">site do IFS</a>.</p>
+ </section>
+ <section id="horarios">
+ <h2>Meus horários de estudo</h2>
+ <table>
+ <caption>Minha semana</caption>
+ <tr>
+ <th>Dia</th>
+ <th>O que eu estudo</th>
+ <th>Horário</th>
+ </tr>
+ <tr>
+ <td>Segunda</td>
+ <td>Programação 1</td>
+ <td>14:20-16:00</td>
+ </tr>
+ <tr>
+    <td>Terça</td>
+    <td>Programação 1</td>
+    <td>11:50-14:20</td>
+ </tr>
+ <tr>
+ <td>Quarta</td>
+ <td>Informática</td>
+ <td>11:50-14:20</td>
+ </tr>
+ <tr>
+ <td>Quinta</td>
+ <td>Construção de sites</td>
+ <td>14:20-16:00</td>
+ </tr>
+ </table>
+ </section>
+ <section id="contato">
+ <h2>Fale comigo</h2>
+ <form id="formContato">
+    <label for="nome">Seu nome</label>
+    <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+ </section>
+ </main>
+ <footer>
+ <p>© 2026 Emanuel · Publicado com GitHub Pages</p>
+ </footer>
+</body>
+</html>
